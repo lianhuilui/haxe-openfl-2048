@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="2048" package="game2048" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Main" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+    <haxelib name="actuate" />
+
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+
+    <android target-sdk-version="17" />
+
+</project>
